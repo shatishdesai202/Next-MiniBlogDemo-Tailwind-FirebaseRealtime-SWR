@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 
 const Card = ({ blog }) => {
-  console.log("blog", blog);
   return (
     <Link href={`/blog/${blog.id}`}>
       <div className="border rounded-md border-gray-400 relative cursor-pointer">
